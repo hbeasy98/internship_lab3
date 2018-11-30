@@ -1,0 +1,201 @@
+body{
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 16px;
+}
+.padding-form1{
+	padding-top: 15%;
+	padding-bottom: 5%;
+}
+.padding-form2{
+	padding: 5% 0;
+}
+/*HEADER*/
+.header{
+	background-image: url(../img/header_br.jpg);
+	background-size: cover;
+	width: 100%;
+	text-transform: uppercase;
+	color: #fff;
+}
+#hd-text-01{
+	font-size: 54px;
+	letter-spacing: 13px;
+	font-weight: bold;
+	padding-top: 5%;
+}
+#hd-text-02{
+	margin: 0 auto 30% auto;
+	font-size: 15px;
+}
+/* ABOUT US*/
+.field_form{
+	border: 1px solid #000;
+}
+.legend_form{
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	font-weight: bold;
+	font-size: 34px;
+	padding: 0 10%;
+	margin: 0;
+	width: 60%;
+}
+.text_form{
+	width: 80%;
+	margin: 5% auto;
+}
+/* SERVICES */
+.services-bg{
+	color: #fff;
+	background-image: url(../img/services_br.jpg);
+	background-size: cover;
+}
+.field_white{
+	border-color: #fff;
+}
+/*WHAT WE DO*/
+.text_title{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	padding-top: 2%;
+}
+.wwd_ico{
+	margin-top: 15%;
+}
+#wwd_text_03{
+	margin-bottom: 10%;
+}
+/*OUT WORK */
+.ow_title{
+	text-align: left;
+	font-size: 34px;
+	margin: 170px auto 42px 47px;
+	color: #fff;
+	letter-spacing: 6px;
+}
+.ow-box{
+	background-size: cover;
+}
+.ow-box-center{
+	padding-left: 1%;
+	padding-right: 1%;
+}
+@media (min-width: 1200px) {
+	.ow-box-s{
+		width: 29%;
+		margin-bottom: 1%;
+	}
+	.ow-box-l{
+		width: 40%;
+		margin: 0 1% 1% 1%;
+	}
+}
+@media (max-width: 1199.98px) {
+	.ow-box-s{
+		width: 49%;
+		margin: 0.5%;
+	}
+	.ow-box-l{
+		width: 49%;
+		margin: 0.5%;
+	}
+}
+@media (max-width: 991.98px) {
+	.ow-box-s{
+		width: 100%;
+		margin-bottom: 1%;
+	}
+	.ow-box-l{
+		width: 100%;
+		margin-bottom: 1%;
+	}
+}
+.ow-box-01{
+	background-image: url(../img/works_01.jpg);
+}
+.ow-box-02{
+	background-image: url(../img/works_02.jpg);
+}
+.ow-box-03{
+	background-image: url(../img/works_03.jpg);
+}
+.ow-box-04{
+	background-image: url(../img/works_04.jpg);
+}
+.ow-box-05{
+	background-image: url(../img/works_05.jpg);
+}
+.ow-box-06{
+	background-image: url(../img/works_06.jpg);
+}
+/*CONTACT*/
+.contact{
+	margin-top: 5%;
+	padding-bottom: 3%;
+}
+.btn-contact{
+    text-transform: uppercase;
+	padding: 2% 8% 2% 8%;
+	letter-spacing: 4px;
+	margin-bottom: 2%;
+}
+/*FOOTER*/
+.footer{
+	margin: 2.5% auto 2.5% auto;
+}
+.ft_text{
+	font-size: 14px;
+}
+
+/* Animation */
+/* #about-us, #services, #what-we-do, #ours-work, #contact */
+.sec-ani{
+	visibility: hidden;
+	opacity: 0;
+}
+.sec-show{
+	visibility: visible;
+	position: relative;
+    animation: myAnimation 4s ease-out  forwards;
+    -moz-animation: myAnimation 4s ease-out forwards;
+    -webkit-animation: myAnimation 4s ease-out forwards ;
+    -o-animation: myAnimation 4s ease-out forwards;
+}
+
+@keyframes myAnimation {
+    0%   {opacity: 0.2}
+    25%  {opacity: 0.7}
+    50%  {opacity: 0.4}
+    75%  {opacity: 0.7}
+    100% {opacity: 1}
+}
+
+/* Hien thi cho Firefox */
+@-moz-keyframes myAnimation {
+    0%   {opacity: 0.2}
+    25%  {opacity: 0.7}
+    50%  {opacity: 0.4}
+    75%  {opacity: 0.7}
+    100% {opacity: 1}
+}
+
+/* Hien thi cho Safari and Chrome */
+@-webkit-keyframes myAnimation {
+    0%   {opacity: 0.2}
+    25%  {opacity: 0.7}
+    50%  {opacity: 0.4}
+    75%  {opacity: 0.7}
+    100% {opacity: 1}
+}
+
+/* Hien thi cho Opera */
+@-o-keyframes myAnimation {
+    0%   {opacity: 0.2}
+    25%  {opacity: 0.7}
+    50%  {opacity: 0.4}
+    75%  {opacity: 0.7}
+    100% {opacity: 1}
+}
